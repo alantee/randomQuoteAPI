@@ -72,6 +72,13 @@ You can use tools like curl, Postman, or your web browser to make requests to th
     http://localhost:3000/quotes/character/Pam
     ```
 
+## Testing
+
+To run tests for the application, execute the following command:
+    ```
+    yarn test
+    ```
+
 ## React Frontend
 
 The repository also includes a simple React app that provides a user interface to interact with the API. To run the React app:
