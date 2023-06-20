@@ -9,32 +9,37 @@ This is an API server built using NestJS that serves random quotes from the TV s
     git clone https://github.com/alantee/randomQuoteAPI.git
     ```
 
-2. **Navigate to the backend project directory**
+2. **Navigate to the project directory**
+    ```
+    cd randomQuoteAPI
+    ```
+
+3. **Navigate to the backend project directory**
     ```
     cd random-quotes-backend
     ```
 
-3. **Install the dependencies**
+4. **Install the dependencies**
     ```
     yarn install
     ```
 
-4. **Start the server**
+5. **Start the server**
     ```
     yarn start
     ```
    _Note: This command will start the server and also create the `quotes.db` SQLite database file in the root directory of the project, if it does not already exist._
 
-5. **Stop the server**
+6. **Stop the server**
    Once the server starts and the `quotes.db` file is created, you can stop the server by pressing `Ctrl+C`.
 
-6. **Run the import script to populate the database with quotes**
+7. **Run the import script to populate the database with quotes**
     ```
     npx ts-node importData.ts
     ```
    _Note: The `importData` script requires a file named `office_quotes.json` in the root directory of the project. This file should contain the quotes data in JSON format._
 
-7. **Restart the server**
+8. **Restart the server**
     ```
     yarn start
     ```
